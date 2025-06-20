@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Professional Portfolio</title>
+  <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Material Icons -->
+<link rel="stylesheet" href="css/icon.css">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav
+    class="navbar navbar-expand-md fixed-top"
+    aria-label="Primary Navigation"
+  >
+    <a class="navbar-brand" href="#">My Portfolio</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="material-icons" style="color:#d1fae5;">menu</span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#resume">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" role="banner" aria-label="Welcome Section">
+    <div class="container">
+      <img src="images/me1.heic" alt="" width="200" height="200" class="rounded-circle mb-4" />
+      <h1>Hi, I'm Harshil Gajjar</h1>
+      <p>
+        A passionate Web Developer creating sleek and modern websites and
+        applications.
+      </p>
+      <a href="#portfolio" class="btn btn-primary" role="button"
+        >Explore My Work</a
+      >
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" aria-label="About Me Section" tabindex="0">
+    <img src="images/harshil2.jpg" alt="" width="200" height="200" class="gg rounded-circle mb-4 shadow-lg mx-5"  />
+    <h2>About Me</h2>
+    <p>
+      I am a full-stack web developer with 5+ years of experience designing,
+      developing, and enhancing web applications. I love turning ideas into
+      functional websites with intuitive user experiences. When not coding, I
+      enjoy photography and hiking.
+    </p>
+    <p>
+      Skilled in HTML, CSS, JavaScript, and frameworks like Bootstrap and jQuery.
+      Always eager to learn new technologies and improve my craft.
+    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" aria-label="Services Section" tabindex="0">
+    <h2>Services</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="service-item" tabindex="0">
+            <span class="material-icons service-icon" aria-hidden="true">web</span>
+            <h3 class="service-title">Web Development</h3>
+            <p class="service-desc">
+              Responsive and modern websites tailored to your business needs, using the latest technologies.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="service-item" tabindex="0">
+            <span class="material-icons service-icon" aria-hidden="true">code</span>
+            <h3 class="service-title">Custom Applications</h3>
+            <p class="service-desc">
+              Building scalable and secure web and mobile applications customized for your workflows and goals.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="service-item" tabindex="0">
+            <span class="material-icons service-icon" aria-hidden="true">brush</span>
+            <h3 class="service-title">UI/UX Design</h3>
+            <p class="service-desc">
+              Creating intuitive, visually appealing user interfaces to offer the best experience for your users.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" aria-label="Education Section" tabindex="0">
+    <h2>Education</h2>
+     <div class="edu-item" tabindex="0">
+      <div class="edu-title">Diploma in Computer Enggineering</div>
+      <div class="edu-subtitle">Silver Oak University</div>
+      <div class="edu-duration">2020 - 2023</div>
+      <p>
+        Graduated with honors, focusing on software development, algorithms,
+        and system design. Participated in multiple coding competitions and
+        hackathons.
+      </p>
+    </div>
+    <div class="edu-item" tabindex="0">
+      <div class="edu-title">Bachelor of Science in Computer Science</div>
+      <div class="edu-subtitle">KarnavatiUniversity </div>
+      <div class="edu-duration">2023 - 2027</div>
+      <p>
+        Graduated with honors, focusing on software development, algorithms,
+        and system design. Participated in multiple coding competitions and
+        hackathons.
+      </p>
+    </div>
+    <div class="edu-item" tabindex="0">
+      <div class="edu-title">Full Stack Web Development Bootcamp</div>
+      <div class="edu-subtitle">Code Academy</div>
+      <div class="edu-duration">2019</div>
+      <p>
+        Intensive training covering modern web technologies including React,
+        Node.js, and database management.
+      </p>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" aria-label="Resume Section" tabindex="0">
+    <h2>Resume</h2>
+    <p>
+      For a detailed look at my professional experience, skills, and projects,
+      feel free to download my resume.
+    </p>
+    <a
+      href="resume.pdf"
+      class="btn-resume-download"
+      download
+      aria-label="Download my resume as PDF"
+      ><span>Download Resume</span>
+      <span class="material-icons" aria-hidden="true">download</span></a
+    >
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" aria-label="Portfolio Section" tabindex="0">
+    <h2>My Work</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <article
+            tabindex="0"
+            class="portfolio-item"
+            aria-describedby="desc-1"
+            role="article"
+          >
+            <img
+              src="/images/t1.png"
+              alt="Screenshot of Project One: E-commerce website with product listings"
+              class="portfolio-img"
+            />
+            <section class="portfolio-content">
+              <h3 class="portfolio-title">E-commerce Platform</h3>
+              <p id="desc-1" class="portfolio-desc">
+                A modern e-commerce platform featuring clean UI and secure
+                checkout.
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary"
+                aria-label="View more details about E-commerce Platform project"
+                >View Project</a
+              >
+            </section>
+          </article>
+        </div>
+        <div class="col-md-4 mb-4">
+          <article
+            tabindex="0"
+            class="portfolio-item"
+            aria-describedby="desc-2"
+            role="article"
+          >
+            <img
+              src="images/t2.png"
+              alt="Screenshot of Project Two: Personal blog with custom CMS"
+              class="portfolio-img"
+            />
+            <section class="portfolio-content">
+              <h3 class="portfolio-title">Traveling Website</h3>
+              <p id="desc-2" class="portfolio-desc">
+                All about traveling, with a custom CMS for easy content management.
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary"
+                aria-label="View more details about Personal Blog CMS project"
+                >View Project</a
+              >
+            </section>
+          </article>
+        </div>
+        <div class="col-md-4 mb-4">
+          <article
+            tabindex="0"
+            class="portfolio-item"
+            aria-describedby="desc-3"
+            role="article"
+          >
+            <img
+              src="images/t3.png"
+              alt="Screenshot of Project Three: Marketing landing page with animation"
+              class="portfolio-img"
+            />
+            <section class="portfolio-content">
+              <h3 class="portfolio-title">Marketing Landing Page</h3>
+              <p id="desc-3" class="portfolio-desc">
+                Responsive landing page with dynamic animations and newsletter
+                integration.
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary"
+                aria-label="View more details about Marketing Landing Page project"
+                >View Project</a
+              >
+            </section>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" aria-label="Contact Section" tabindex="0">
+    <h2>Contact Me</h2>
+    <div class="container">
+      <form id="contact-form" novalidate>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Your name"
+              required
+              aria-required="true"
+            />
+            <div class="invalid-feedback">Please enter your name.</div>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="your.email@example.com"
+              required
+              aria-required="true"
+            />
+            <div class="invalid-feedback">Please enter a valid email.</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="5"
+            placeholder="Write your message here..."
+            required
+            aria-required="true"
+          ></textarea>
+          <div class="invalid-feedback">Please enter your message.</div>
+        </div>
+        <button
+          type="submit"
+          class="btn-submit"
+          aria-label="Send message via contact form"
+        >
+          Send Message
+          <span
+            class="material-icons"
+            aria-hidden="true"
+            style="vertical-align: middle; margin-left: 5px;"
+            >send</span
+          >
+        </button>
+      </form>
+      <div id="form-result" class="mt-3" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    &copy; 2025 Harshil Gajjar - All rights reserved.
+  </footer>
+
+  <!-- jQuery & Bootstrap JS -->
+  <script src="js/jquery.min.js"></script>
+  <script
+    src="js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    // Contact form validation and submit simulation with jQuery
+    $(function () {
+      const form = $('#contact-form');
+      const formResult = $('#form-result');
+
+      form.on('submit', function (e) {
+        e.preventDefault();
+        formResult.text('');
+        // Clear previous validation states
+        form.find('.form-control').removeClass('is-invalid');
+
+        const name = $('#name').val().trim();
+        const email = $('#email').val().trim();
+        const message = $('#message').val().trim();
+
+        let valid = true;
+
+        if (!name) {
+          $('#name').addClass('is-invalid');
+          valid = false;
+        }
+        // Simple email validation
+        const emailRegex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;
+        if (!email || !emailRegex.test(email)) {
+          $('#email').addClass('is-invalid');
+          valid = false;
+        }
+        if (!message) {
+          $('#message').addClass('is-invalid');
+          valid = false;
+        }
+
+        if (!valid) {
+          formResult.text('Please fill in all required fields correctly.').css('color', 'red');
+          return;
+        }
+
+        // Simulate sending message
+        formResult.text('Sending message...').css('color', '#059669');
+
+        setTimeout(() => {
+          formResult.text('Message sent successfully! Thank you for reaching out.').css('color', '#059669');
+          form[0].reset();
+        }, 1500);
+      });
+    });
+  </script>
+</body>
+</html>
+
